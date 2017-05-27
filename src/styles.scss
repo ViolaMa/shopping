@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'variables'; 
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+body{
+    font-size: 12px;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.theme-font a{
+    color: #333;
+}
+.theme-font a:hover{
+    color: #ff6905;
+}
+
+ul,li{
+    margin: 0;
+    padding:0;
+}
+
+.container-fluid{
+    padding: 0;
+}
