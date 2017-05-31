@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './home/header/header.component';
 import { SearchComplexComponent } from './home/search/search-complex/search-complex.component';
+import { CategoryComponent } from './home/category/category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SearchComplexComponent
+    SearchComplexComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,

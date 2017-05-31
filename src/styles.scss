@@ -6,19 +6,11 @@ body{
     font-size: 12px;
 }
 
-.fl{
-    float: left;
-}
-
-.fr{
-    float: right;
-}
-
-.theme-font a{
-    color: #333;
-}
-.theme-font a:hover{
-    color: #ff6905;
+a{
+    color: $grey;
+    &:hover{
+        color: $theme;
+    }
 }
 
 ul,li{
