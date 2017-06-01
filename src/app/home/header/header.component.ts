@@ -13,6 +13,8 @@ export class HeaderComponent implements OnInit {
     login: false
   }
 
+  public keyWords: '';
+
   constructor() { }
 
   ngOnInit() {

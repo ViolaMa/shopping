@@ -1,7 +1,7 @@
 <div class="theme-font header-wrap">
   <header class="header">
     <ul>
-      <li><a href="">{{userInfo.name}}</a></li>
+      <li><a routerLink="login">{{userInfo.name}}</a></li>
       <li><a href=""><i class="icon"></i>消息</a></li>
       <li><a href="">手机逛淘宝</a></li>
     </ul>
@@ -15,5 +15,18 @@
       <li><a href="">网站导航</a></li>
     </ul>
   </header>
-  <app-search-complex></app-search-complex>
+  <div class="container search-complex">
+    <div class="row">
+      <div class="col-sm-2"><img src="src/images/logo.jpg" alt="" /></div>
+      <div class="col-sm-8 search-wrap">
+        <form action="">
+          <input type="text" [(ngModel)]='keyWords' name="keyWords" placeholder="输入关键词搜索" class="form-control search-input" />
+          <input type="submit" value="搜索" class="search-btn">
+        </form>
+      </div>
+      <div class="col-sm-2">
+        <div class="qr_code"><img src="src/images/qr_code.png" alt=""></div>
+      </div>
+    </div>
+  </div>
 </div>
